@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 500px;
+            text-align: center;
+        }
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .container h2 {
+            margin: 10px 0;
+            font-size: 1.8em;
+        }
+        .container p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #555;
+        }
+        .for-sale {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        .not-for-sale {
+            font-weight: bold;
+            color: #c0392b;
+        }
+        .market-price {
+            font-weight: bold;
+            color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://example.com/bird.jpg" alt="Bird Image">
+        <h2>Bird Name</h2>
+        <p><strong>Posted by:</strong> Username</p>
+        <p><strong>Date Posted:</strong> 20240204</p>
+        <p><strong>Location:</strong> Bird Location</p>
+        <p><strong>Description:</strong> A beautiful bird found in the wild.</p>
+        <p><strong>Species:</strong> Bird Species</p>
+        <p class="market-price"><strong>Market Price:</strong> $100</p>
+        <p class="for-sale"><strong>For Sale:</strong> Yes</p>
+    </div>
+</body>
+</html>
